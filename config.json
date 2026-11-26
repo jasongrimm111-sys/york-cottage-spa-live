@@ -324,18 +324,16 @@
    "policy": "Spa days are paid in full and are non-refundable. You can move your visit (subject to availability) by emailing us at least 30 days before."
   },
   "break": {
-   "name": "Overnight Spa Break",
+   "name": "1-Night Spa Break",
    "kind": "stay",
    "priceN": {
-    "1": 145,
-    "2": 220
+    "1": 145
    },
    "perPerson": true,
    "min": 2,
    "max": 6,
    "nights": [
-    1,
-    2
+    1
    ],
    "arriveDays": {
     "1": [
@@ -344,7 +342,78 @@
      2,
      3,
      4
-    ],
+    ]
+   },
+   "food": false,
+   "foodsIncluded": [
+    "grazing"
+   ],
+   "breakfast": true,
+   "exclusiveFrom": 6,
+   "benefits": [
+    "King ensuite room",
+    "Spa access",
+    "Sweet & savoury grazing board",
+    "Towel & robe"
+   ],
+   "active": true,
+   "online": true,
+   "blurb": "1 night from £145 or 2 nights from £220 per person, based on 2 sharing. King ensuite room, grazing board, 20-minute aromatherapy massage each, spa access.",
+   "times": {
+    "0": {
+     "checkIn": "14:00",
+     "spa": [
+      "18:00",
+      "22:30"
+     ],
+     "spa2": [
+      "17:30",
+      "22:00"
+     ],
+     "food": "16:30",
+     "checkOut": "11:00"
+    },
+    "default": {
+     "checkIn": "13:30",
+     "spa": [
+      "14:00",
+      "18:00"
+     ],
+     "food": "18:00",
+     "checkOut": "11:00"
+    }
+   },
+   "pay": {
+    "deposit": 100
+   },
+   "cancel": {
+    "rules": [
+     {
+      "minDays": 30,
+      "keepPct": 0
+     },
+     {
+      "minDays": 0,
+      "keepPct": 100
+     }
+    ]
+   },
+   "includedPick": "one",
+   "policy": "Spa breaks can be refunded if you cancel at least 30 days before arrival. With less notice the full cost is charged, and there are no refunds for leaving early."
+  },
+  "break2": {
+   "name": "2-Night Spa Break",
+   "kind": "stay",
+   "priceN": {
+    "2": 220
+   },
+   "perPerson": true,
+   "min": 2,
+   "max": 6,
+   "nights": [
+    2
+   ],
+   "arriveDays": {
     "2": [
      0,
      1,
@@ -592,7 +661,8 @@
    "end": "18:30",
    "products": [
     "break",
-    "group"
+    "group",
+    "break2"
    ],
    "staff": 1,
    "active": true,
@@ -626,7 +696,8 @@
     "day",
     "private",
     "group",
-    "break"
+    "break",
+    "break2"
    ],
    "vegan": true,
    "active": true
@@ -646,7 +717,8 @@
     "day",
     "private",
     "break",
-    "group"
+    "group",
+    "break2"
    ],
    "sell": false,
    "roomIds": [
@@ -856,7 +928,8 @@
    "people": 2,
    "ensuite": true,
    "forBreaks": true,
-   "active": true
+   "active": true,
+   "photo": "https://static.wixstatic.com/media/7a9273_372efc1386f3463b863c2d3b93d28915~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,enc_auto/room.jpg"
   },
   {
    "id": "r2",
@@ -865,7 +938,8 @@
    "people": 2,
    "ensuite": true,
    "forBreaks": true,
-   "active": true
+   "active": true,
+   "photo": "https://static.wixstatic.com/media/7a9273_6598de2d84f849188386e0070f6f06f4~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,enc_auto/room.jpg"
   },
   {
    "id": "r3",
@@ -874,7 +948,8 @@
    "people": 2,
    "ensuite": true,
    "forBreaks": true,
-   "active": true
+   "active": true,
+   "photo": "https://static.wixstatic.com/media/7a9273_7586b6b2ac694ae5b57bf3f571a4201f~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,enc_auto/room.jpg"
   },
   {
    "id": "r4",
@@ -883,7 +958,8 @@
    "people": 2,
    "ensuite": true,
    "forBreaks": true,
-   "active": true
+   "active": true,
+   "photo": "https://static.wixstatic.com/media/7a9273_372efc1386f3463b863c2d3b93d28915~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,enc_auto/room.jpg"
   },
   {
    "id": "r5",
@@ -892,7 +968,8 @@
    "people": 2,
    "ensuite": true,
    "forBreaks": true,
-   "active": true
+   "active": true,
+   "photo": "https://static.wixstatic.com/media/7a9273_6598de2d84f849188386e0070f6f06f4~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,enc_auto/room.jpg"
   },
   {
    "id": "r6",
@@ -901,7 +978,8 @@
    "people": 2,
    "ensuite": false,
    "forBreaks": false,
-   "active": true
+   "active": true,
+   "photo": "https://static.wixstatic.com/media/7a9273_7586b6b2ac694ae5b57bf3f571a4201f~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,enc_auto/room.jpg"
   },
   {
    "id": "r7",
@@ -910,7 +988,8 @@
    "people": 2,
    "ensuite": false,
    "forBreaks": false,
-   "active": true
+   "active": true,
+   "photo": "https://static.wixstatic.com/media/7a9273_372efc1386f3463b863c2d3b93d28915~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,enc_auto/room.jpg"
   },
   {
    "id": "r8",
@@ -919,7 +998,8 @@
    "people": 2,
    "ensuite": false,
    "forBreaks": false,
-   "active": true
+   "active": true,
+   "photo": "https://static.wixstatic.com/media/7a9273_6598de2d84f849188386e0070f6f06f4~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,enc_auto/room.jpg"
   }
  ],
  "rates": [],
@@ -927,6 +1007,7 @@
   {
    "id": "s1",
    "active": true,
+   "priority": 1,
    "treatments": [
     "inc-massage",
     "tension",
@@ -997,6 +1078,7 @@
   {
    "id": "s2",
    "active": true,
+   "priority": 2,
    "treatments": [
     "inc-massage",
     "tension",
