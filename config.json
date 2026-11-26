@@ -234,17 +234,12 @@
    "min": 1,
    "max": 6,
    "food": true,
-   "included": [
-    "inc-massage",
-    "inc-facial"
-   ],
    "benefits": [
     "Spa pool, sauna & relaxation lounge",
     "Hot & cold drinks",
     "Towel, robe & slippers",
     "Afternoon tea or grazing board"
    ],
-   "includedAll": [],
    "active": true,
    "online": true,
    "blurb": "4-hour session: 20-minute massage or facial, afternoon tea or grazing board, spa pool, sauna & lounge.",
@@ -259,7 +254,9 @@
       "keepPct": 100
      }
     ]
-   }
+   },
+   "includedPick": "one",
+   "policy": "Spa days are paid in full and are non-refundable. You can move your visit (subject to availability) by emailing us at least 30 days before."
   },
   "access": {
    "name": "Spa Access",
@@ -268,13 +265,11 @@
    "min": 1,
    "max": 6,
    "food": false,
-   "included": [],
    "benefits": [
     "Spa pool, sauna & relaxation lounge",
     "Hot & cold drinks",
     "Towel & robe"
    ],
-   "includedAll": [],
    "active": true,
    "online": true,
    "blurb": "4-hour session: spa pool, sauna and lounge with hot & cold refreshments, towel and robe.",
@@ -289,7 +284,9 @@
       "keepPct": 100
      }
     ]
-   }
+   },
+   "includedPick": "one",
+   "policy": "Spa days are paid in full and are non-refundable. You can move your visit (subject to availability) by emailing us at least 30 days before."
   },
   "private": {
    "name": "Private Spa",
@@ -301,16 +298,11 @@
    },
    "max": 16,
    "food": true,
-   "included": [
-    "inc-massage",
-    "inc-lux-facial"
-   ],
    "benefits": [
     "The spa just for your group",
     "Food & drinks",
     "Towel & robe"
    ],
-   "includedAll": [],
    "active": true,
    "online": true,
    "blurb": "The spa just for your group, with food, drinks and a 20-minute massage or luxury facial each.",
@@ -325,7 +317,9 @@
       "keepPct": 100
      }
     ]
-   }
+   },
+   "includedPick": "one",
+   "policy": "Spa days are paid in full and are non-refundable. You can move your visit (subject to availability) by emailing us at least 30 days before."
   },
   "break": {
    "name": "Overnight Spa Break",
@@ -360,9 +354,6 @@
    "foodsIncluded": [
     "grazing"
    ],
-   "included": [
-    "inc-massage"
-   ],
    "breakfast": true,
    "exclusiveFrom": 6,
    "benefits": [
@@ -371,7 +362,6 @@
     "Sweet & savoury grazing board",
     "Towel & robe"
    ],
-   "includedAll": [],
    "active": true,
    "online": true,
    "blurb": "1 night from £145 or 2 nights from £220 per person, based on 2 sharing. King ensuite room, grazing board, 20-minute aromatherapy massage each, spa access.",
@@ -413,7 +403,9 @@
       "keepPct": 100
      }
     ]
-   }
+   },
+   "includedPick": "one",
+   "policy": "Spa breaks can be refunded if you cancel at least 30 days before arrival. With less notice the full cost is charged, and there are no refunds for leaving early."
   },
   "group": {
    "name": "Group Spa Break",
@@ -441,9 +433,6 @@
     "grazing",
     "tea"
    ],
-   "included": [
-    "inc-massage"
-   ],
    "breakfast": true,
    "exclusive": true,
    "benefits": [
@@ -451,7 +440,6 @@
     "Grazing board or afternoon tea",
     "Up to 8 rooms"
    ],
-   "includedAll": [],
    "active": true,
    "online": true,
    "blurb": "7+ guests, Sunday to Thursday. Up to 8 rooms, the spa just for your group, a grazing board or afternoon tea and a 20-minute aromatherapy massage each.",
@@ -488,7 +476,10 @@
       "keepPct": 100
      }
     ]
-   }
+   },
+   "allRooms": true,
+   "includedPick": "one",
+   "policy": "Spa breaks can be refunded if you cancel at least 30 days before arrival. With less notice the full cost is charged, and there are no refunds for leaving early."
   },
   "house": {
    "name": "Whole House & Spa",
@@ -499,14 +490,12 @@
    "min": 1,
    "max": 16,
    "food": false,
-   "included": [],
    "benefits": [
     "Exclusive use of the house & spa",
     "Hot tub & sauna",
     "Full kitchen & 2 living rooms",
     "A basket of firewood"
    ],
-   "includedAll": [],
    "active": true,
    "online": true,
    "blurb": "Exclusive use of the house and spa for up to 16 guests: 8 bedrooms, kitchen, 2 living rooms, hot tub and sauna. 2-night minimum.",
@@ -538,7 +527,9 @@
       "keepPct": 100
      }
     ]
-   }
+   },
+   "includedPick": "one",
+   "policy": "50% is paid now and the balance 6 weeks before arrival (bookings within 6 weeks are paid in full). Cancel 6+ months ahead and you can move your dates; 6+ weeks ahead, the deposit is kept; under 6 weeks, the full cost is kept. A £500 damage deposit is pre-authorised on your card and released within 48 hours of departure."
   },
   "treat": {
    "name": "Treatments only",
@@ -547,9 +538,7 @@
    "min": 1,
    "max": 4,
    "food": false,
-   "included": [],
    "benefits": [],
-   "includedAll": [],
    "active": true,
    "online": true,
    "blurb": "Just here for a massage, facial or head spa? Choose your treatments with no spa session.",
@@ -574,7 +563,9 @@
       "keepPct": 100
      }
     ]
-   }
+   },
+   "includedPick": "one",
+   "policy": "Spa days are paid in full and are non-refundable. You can move your visit (subject to availability) by emailing us at least 30 days before."
   }
  },
  "breakfastPrice": 10,
@@ -642,36 +633,48 @@
  "treatments": [
   {
    "id": "inc-massage",
-   "cat": "Included",
+   "cat": "Massage",
    "name": "20-minute aromatherapy massage",
    "min": 20,
    "buffer": 10,
    "price": 0,
-   "included": true,
    "active": true,
-   "desc": "Included with spa days and stays."
+   "desc": "Included with spa days and stays.",
+   "includedWith": [
+    "day",
+    "private",
+    "break",
+    "group"
+   ],
+   "sell": false
   },
   {
    "id": "inc-facial",
-   "cat": "Included",
+   "cat": "Facials",
    "name": "20-minute aromatherapy facial",
    "min": 20,
    "buffer": 10,
    "price": 0,
-   "included": true,
    "active": true,
-   "desc": "Included with the Day Spa."
+   "desc": "Included with the Day Spa.",
+   "includedWith": [
+    "day"
+   ],
+   "sell": false
   },
   {
    "id": "inc-lux-facial",
-   "cat": "Included",
+   "cat": "Facials",
    "name": "20-minute luxury facial",
    "min": 20,
    "buffer": 10,
    "price": 0,
-   "included": true,
    "active": true,
-   "desc": "Included with the Private Spa."
+   "desc": "Included with the Private Spa.",
+   "includedWith": [
+    "private"
+   ],
+   "sell": false
   },
   {
    "id": "basics",
