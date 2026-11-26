@@ -927,7 +927,6 @@
   {
    "id": "s1",
    "active": true,
-   "priority": 1,
    "treatments": [
     "inc-massage",
     "inc-facial",
@@ -995,7 +994,6 @@
   {
    "id": "s2",
    "active": true,
-   "priority": 2,
    "treatments": [
     "inc-massage",
     "inc-facial",
@@ -1112,5 +1110,11 @@
   "2027-08-30",
   "2027-12-27",
   "2027-12-28"
- ]
+ ],
+ "roles": null,
+ "consult": {
+  "questions": null,
+  "endpoint": "",
+  "publicKey": null
+ }
 }
