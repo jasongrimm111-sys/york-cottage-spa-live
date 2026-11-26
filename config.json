@@ -999,17 +999,20 @@
    "active": true,
    "treatments": [
     "inc-massage",
-    "inc-facial",
-    "inc-lux-facial",
-    "basics",
-    "radiance",
     "tension",
     "scalp",
     "recipe",
     "full",
+    "inc-facial",
+    "inc-lux-facial",
+    "basics",
+    "radiance",
     "classic",
     "ritual",
     "zen"
+   ],
+   "duties": [
+    "food"
    ],
    "pattern": {
     "0": {
