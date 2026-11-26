@@ -1113,7 +1113,66 @@
  ],
  "roles": null,
  "consult": {
-  "questions": null,
+  "questions": [
+   {
+    "id": "pregnant",
+    "type": "yesno",
+    "label": "Are you pregnant, or could you be?",
+    "detail": "How many weeks?"
+   },
+   {
+    "id": "heart",
+    "type": "yesno",
+    "label": "Do you have a heart condition, or high or low blood pressure?",
+    "detail": "Please tell us more"
+   },
+   {
+    "id": "medical",
+    "type": "yesno",
+    "label": "Do you have diabetes, epilepsy, a blood clotting condition or any other medical condition?",
+    "detail": "Please tell us more"
+   },
+   {
+    "id": "meds",
+    "type": "yesno",
+    "label": "Are you taking any medication?",
+    "detail": "Which ones?"
+   },
+   {
+    "id": "allergy",
+    "type": "yesno",
+    "label": "Do you have any allergies (for example nuts, essential oils, latex or skincare products)?",
+    "detail": "What are you allergic to?"
+   },
+   {
+    "id": "skin",
+    "type": "yesno",
+    "label": "Any skin conditions, cuts, recent sunburn, or cosmetic treatments (peels, injectables, laser) in the last 2 weeks?",
+    "detail": "Please tell us more"
+   },
+   {
+    "id": "injury",
+    "type": "yesno",
+    "label": "Any injuries, recent surgery, or areas you’d like us to avoid?",
+    "detail": "Where, and what happened?"
+   },
+   {
+    "id": "pressure",
+    "type": "choice",
+    "label": "Preferred massage pressure",
+    "options": [
+     "Light",
+     "Medium",
+     "Firm",
+     "Not sure"
+    ]
+   },
+   {
+    "id": "other",
+    "type": "text",
+    "label": "Anything else your therapist should know?"
+   }
+  ],
   "endpoint": "",
   "publicKey": null
  }
