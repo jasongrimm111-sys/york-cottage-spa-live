@@ -648,7 +648,11 @@
     "break",
     "group"
    ],
-   "sell": false
+   "sell": false,
+   "roomIds": [
+    "tr1",
+    "tr2"
+   ]
   },
   {
    "id": "inc-facial",
@@ -662,7 +666,11 @@
    "includedWith": [
     "day"
    ],
-   "sell": false
+   "sell": false,
+   "roomIds": [
+    "tr1",
+    "tr2"
+   ]
   },
   {
    "id": "inc-lux-facial",
@@ -676,7 +684,11 @@
    "includedWith": [
     "private"
    ],
-   "sell": false
+   "sell": false,
+   "roomIds": [
+    "tr1",
+    "tr2"
+   ]
   },
   {
    "id": "basics",
@@ -686,7 +698,11 @@
    "buffer": 15,
    "price": 50,
    "active": true,
-   "desc": "Aromatherapy facial with double cleanse, exfoliation, shoulder massage, serum and moisturiser."
+   "desc": "Aromatherapy facial with double cleanse, exfoliation, shoulder massage, serum and moisturiser.",
+   "roomIds": [
+    "tr1",
+    "tr2"
+   ]
   },
   {
    "id": "radiance",
@@ -696,7 +712,11 @@
    "buffer": 15,
    "price": 70,
    "active": true,
-   "desc": "Aromatherapy facial with double cleanse, tone, exfoliation and mask, a chest, neck, shoulder and scalp massage, serum and moisturiser."
+   "desc": "Aromatherapy facial with double cleanse, tone, exfoliation and mask, a chest, neck, shoulder and scalp massage, serum and moisturiser.",
+   "roomIds": [
+    "tr1",
+    "tr2"
+   ]
   },
   {
    "id": "tension",
@@ -706,7 +726,11 @@
    "buffer": 15,
    "price": 50,
    "active": true,
-   "desc": "Focused massage to ease tight backs, necks and shoulders."
+   "desc": "Focused massage to ease tight backs, necks and shoulders.",
+   "roomIds": [
+    "tr1",
+    "tr2"
+   ]
   },
   {
    "id": "scalp",
@@ -716,7 +740,11 @@
    "buffer": 15,
    "price": 50,
    "active": true,
-   "desc": "Slow, soothing massage for the scalp, neck and shoulders."
+   "desc": "Slow, soothing massage for the scalp, neck and shoulders.",
+   "roomIds": [
+    "tr1",
+    "tr2"
+   ]
   },
   {
    "id": "recipe",
@@ -726,7 +754,11 @@
    "buffer": 15,
    "price": 70,
    "active": true,
-   "desc": "Back, neck, shoulder and scalp massage."
+   "desc": "Back, neck, shoulder and scalp massage.",
+   "roomIds": [
+    "tr1",
+    "tr2"
+   ]
   },
   {
    "id": "full",
@@ -737,7 +769,11 @@
    "price": 80,
    "active": true,
    "heavy": true,
-   "desc": "A full body massage from head to toe."
+   "desc": "A full body massage from head to toe.",
+   "roomIds": [
+    "tr1",
+    "tr2"
+   ]
   },
   {
    "id": "classic",
@@ -751,7 +787,11 @@
     "headspa"
    ],
    "active": true,
-   "desc": "Traditional Japanese scalp massage with deep cleansing and nourishing scalp care."
+   "desc": "Traditional Japanese scalp massage with deep cleansing and nourishing scalp care.",
+   "roomIds": [
+    "tr1",
+    "tr2"
+   ]
   },
   {
    "id": "ritual",
@@ -765,7 +805,11 @@
     "headspa"
    ],
    "active": true,
-   "desc": "An extended head spa with a mini facial."
+   "desc": "An extended head spa with a mini facial.",
+   "roomIds": [
+    "tr1",
+    "tr2"
+   ]
   },
   {
    "id": "zen",
@@ -779,7 +823,11 @@
     "headspa"
    ],
    "active": true,
-   "desc": "Deep scalp renewal with a bespoke facial, extended massage and premium botanical serums."
+   "desc": "Deep scalp renewal with a bespoke facial, extended massage and premium botanical serums.",
+   "roomIds": [
+    "tr1",
+    "tr2"
+   ]
   }
  ],
  "treatRooms": [
