@@ -30,7 +30,8 @@
   "blueLightMin": 30,
   "groupTogether": true,
   "groupTogetherFrom": 2,
-  "holdMinutes": 30
+  "holdMinutes": 30,
+  "share": "even"
  },
  "hours": {
   "0": {
