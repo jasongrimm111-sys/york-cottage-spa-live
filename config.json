@@ -13,7 +13,7 @@
  "rules": {
   "bookAheadDays": 365,
   "minNoticeHours": 24,
-  "slotStep": 15,
+  "slotStep": 30,
   "maxHandsOn": 360,
   "breaks": {
    "lunchMin": 30,
@@ -31,7 +31,8 @@
   "groupTogether": true,
   "groupTogetherFrom": 2,
   "holdMinutes": 30,
-  "share": "even"
+  "minHandover": 15,
+  "share": "fill"
  },
  "hours": {
   "0": {
@@ -878,6 +879,7 @@
   {
    "id": "s1",
    "active": true,
+   "priority": 1,
    "treatments": [
     "inc-massage",
     "inc-facial",
@@ -945,6 +947,7 @@
   {
    "id": "s2",
    "active": true,
+   "priority": 2,
    "treatments": [
     "inc-massage",
     "inc-facial",
