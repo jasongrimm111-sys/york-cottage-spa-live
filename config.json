@@ -1,1 +1,1293 @@
-{"v":1,"business":{"name":"York Cottage Spa","phone":"01933 580 100","email":"info@yorkcottagespa.com","whatsapp":"","address":"Easton Lane, Bozeat, Northamptonshire NN29 7NN","website":"https://www.yorkcottagespa.com","googleReviewUrl":"","currency":"GBP"},"rules":{"bookAheadDays":365,"minNoticeHours":24,"slotStep":30,"maxHandsOn":360,"breaks":{"lunchMin":30,"lunchMax":60,"lunchFrom":"11:30","lunchTo":"15:00","lunchIfOver":360,"breakMin":15,"breakMax":30,"maxWithoutBreak":240},"headSpaOff":10,"blueLight":true,"blueLightMin":30,"groupTogether":true,"groupTogetherFrom":2,"holdMinutes":30,"minHandover":15,"share":"fill"},"hours":{"0":{"start":"09:30","end":"22:30"},"1":{"start":"09:30","end":"22:00"},"2":{"start":"09:30","end":"22:00"},"3":{"start":"09:30","end":"22:00"},"4":{"start":"09:30","end":"22:00"},"5":{"start":"09:30","end":"22:00"},"6":{"start":"09:30","end":"22:00"}},"hoursOverride":{},"treatTimes":{"default":{"first":"10:00","last":"21:00"},"dates":{}},"closures":[{"id":"xmas26","from":"2026-12-25","to":"2026-12-26","scope":["all"],"reason":"Christmas"}],"spa":{"capacity":6,"changeover":30},"sessions":[{"id":"day-am","product":"day","name":"Morning","start":"09:30","end":"13:30","arrive":"09:15","cap":6,"days":[1,2,3,4,5,6,0],"active":true},{"id":"day-pm","product":"day","name":"Afternoon","start":"13:00","end":"17:00","arrive":"12:45","cap":6,"days":[1,2,3,4,5,6,0],"active":true},{"id":"acc-am","product":"access","name":"Morning","start":"09:30","end":"13:30","arrive":"09:15","cap":6,"days":[1,2,3,4,5,6,0],"active":true},{"id":"acc-pm","product":"access","name":"Afternoon","start":"14:00","end":"18:00","arrive":"13:45","cap":6,"days":[1,2,3,4,5,6,0],"active":true},{"id":"acc-ev","product":"access","name":"Evening","start":"18:30","end":"22:00","arrive":"18:15","cap":6,"days":[5,6],"active":true},{"id":"prv-am","product":"private","name":"Morning","start":"09:30","end":"13:30","arrive":"09:15","cap":16,"days":[1,2,3,4,5,6],"active":true},{"id":"prv-pm","product":"private","name":"Afternoon","start":"14:00","end":"18:00","arrive":"13:45","cap":16,"days":[1,2,3,4,5,6],"active":true},{"id":"prv-sun","product":"private","name":"Sunday","start":"11:30","end":"15:30","arrive":"11:15","cap":16,"days":[0],"active":true}],"products":{"day":{"name":"Day Spa","kind":"session","price":100,"min":1,"max":6,"food":true,"benefits":["Spa pool, sauna & relaxation lounge","Hot & cold drinks","Towel, robe & slippers","Afternoon tea or grazing board"],"active":true,"online":true,"blurb":"4-hour session: 20-minute massage or facial, afternoon tea or grazing board, spa pool, sauna & lounge.","pay":{"deposit":100},"cancel":{"moveDays":30,"rules":[{"minDays":0,"keepPct":100}]},"includedPick":"one","policy":"Spa days are paid in full and are non-refundable. You can move your visit (subject to availability) by emailing us at least 30 days before."},"access":{"name":"Spa Access","kind":"session","price":50,"min":1,"max":6,"food":false,"benefits":["Spa pool, sauna & relaxation lounge","Hot & cold drinks","Towel & robe"],"active":true,"online":true,"blurb":"4-hour session: spa pool, sauna and lounge with hot & cold refreshments, towel and robe.","pay":{"deposit":100},"cancel":{"moveDays":30,"rules":[{"minDays":0,"keepPct":100}]},"includedPick":"one","policy":"Spa days are paid in full and are non-refundable. You can move your visit (subject to availability) by emailing us at least 30 days before."},"private":{"name":"Private Spa","kind":"private","price":100,"min":4,"minByDay":{"0":6},"max":16,"food":true,"benefits":["The spa just for your group","Food & drinks","Towel & robe"],"active":true,"online":true,"blurb":"The spa just for your group, with food, drinks and a 20-minute massage or luxury facial each.","pay":{"deposit":100},"cancel":{"moveDays":30,"rules":[{"minDays":0,"keepPct":100}]},"includedPick":"one","policy":"Spa days are paid in full and are non-refundable. You can move your visit (subject to availability) by emailing us at least 30 days before."},"break":{"name":"1-Night Spa Break","kind":"stay","priceN":{"1":145},"perPerson":true,"min":2,"max":6,"nights":[1],"arriveDays":{"1":[1,2,3,4,0]},"food":false,"foodsIncluded":["grazing"],"breakfast":true,"exclusiveFrom":6,"benefits":["King ensuite room","Spa access","Sweet & savoury grazing board","Towel & robe"],"active":true,"online":true,"blurb":"One night, from £145 per person based on 2 sharing. King ensuite room, grazing board, a 20-minute aromatherapy massage or facial each and spa access. Sunday to Thursday.","times":{"0":{"checkIn":"14:00","food":"16:30","checkOut":"11:00","spa":["18:00","22:30"],"spa2":["17:30","22:00"]},"default":{"checkIn":"13:30","spa":["14:00","18:00"],"food":"18:00","checkOut":"11:00"}},"pay":{"deposit":100},"cancel":{"rules":[{"minDays":30,"keepPct":0},{"minDays":0,"keepPct":100}]},"includedPick":"one","policy":"Spa breaks can be refunded if you cancel at least 30 days before arrival. With less notice the full cost is charged, and there are no refunds for leaving early."},"break2":{"name":"2-Night Spa Break","kind":"stay","priceN":{"2":220},"perPerson":true,"min":2,"max":6,"nights":[2],"arriveDays":{"2":[0,1,2,3]},"food":false,"foodsIncluded":["grazing"],"breakfast":true,"exclusiveFrom":6,"benefits":["King ensuite room","Spa access","Sweet & savoury grazing board","Towel & robe"],"active":true,"online":true,"blurb":"Two nights, from £220 per person based on 2 sharing. King ensuite room, grazing board, a 20-minute aromatherapy massage or facial each and spa access. Arrive Sunday to Wednesday.","times":{"0":{"checkIn":"14:00","spa":["18:00","22:30"],"spa2":["17:30","22:00"],"food":"16:30","checkOut":"11:00"},"default":{"checkIn":"13:30","spa":["14:00","18:00"],"food":"18:00","checkOut":"11:00"}},"pay":{"deposit":100},"cancel":{"rules":[{"minDays":30,"keepPct":0},{"minDays":0,"keepPct":100}]},"includedPick":"one","policy":"Spa breaks can be refunded if you cancel at least 30 days before arrival. With less notice the full cost is charged, and there are no refunds for leaving early."},"group":{"name":"Group Spa Break","kind":"stay","priceN":{"1":145},"perPerson":true,"min":7,"max":16,"nights":[1],"arriveDays":{"1":[0,1,2,3,4]},"food":true,"foods":["grazing","tea"],"breakfast":true,"exclusive":true,"benefits":["The spa just for your group","Grazing board or afternoon tea","Up to 8 rooms"],"active":true,"online":true,"blurb":"7+ guests, Sunday to Thursday. Up to 8 rooms, the spa just for your group, a grazing board or afternoon tea and a 20-minute aromatherapy massage or facial each.","times":{"0":{"checkIn":"15:30","spa":["17:30","22:00"],"food":"16:30","checkOut":"11:00"},"default":{"checkIn":"13:30","spa":["14:00","22:00"],"checkOut":"11:00"}},"pay":{"deposit":100},"cancel":{"rules":[{"minDays":30,"keepPct":0},{"minDays":0,"keepPct":100}]},"allRooms":true,"includedPick":"one","policy":"Spa breaks can be refunded if you cancel at least 30 days before arrival. With less notice the full cost is charged, and there are no refunds for leaving early."},"house":{"name":"Whole House & Spa","kind":"house","night":1840,"minN":2,"maxN":30,"min":1,"max":16,"food":false,"benefits":["Exclusive use of the house & spa","Hot tub & sauna","Full kitchen & 2 living rooms","A basket of firewood"],"active":true,"online":true,"blurb":"Exclusive use of the house and spa for up to 16 guests: 8 bedrooms, kitchen, 2 living rooms, hot tub and sauna. 2-night minimum.","times":{"default":{"checkIn":"16:00","spa":["08:00","22:00"],"checkOut":"11:00","spaLastDay":"10:30"}},"pay":{"deposit":50,"balanceDays":42,"damage":500},"cancel":{"moveDays":183,"rules":[{"minDays":42,"keepDeposit":true},{"minDays":0,"keepPct":100}]},"includedPick":"one","policy":"50% is paid now and the balance 6 weeks before arrival (bookings within 6 weeks are paid in full). Cancel 6+ months ahead and you can move your dates; 6+ weeks ahead, the deposit is kept; under 6 weeks, the full cost is kept. A £500 damage deposit is pre-authorised on your card and released within 48 hours of departure."},"treat":{"name":"Treatments only","kind":"treat","price":0,"min":1,"max":4,"food":false,"benefits":[],"active":true,"online":true,"blurb":"Just here for a massage, facial or head spa? Choose your treatments with no spa session.","parts":{"Morning":["09:30","13:00"],"Afternoon":["13:00","18:00"]},"pay":{"deposit":100},"cancel":{"moveDays":30,"rules":[{"minDays":0,"keepPct":100}]},"includedPick":"one","policy":"Spa days are paid in full and are non-refundable. You can move your visit (subject to availability) by emailing us at least 30 days before."}},"breakfastPrice":10,"services":[{"id":"lunch","name":"Spa lunch service","start":"13:00","end":"14:00","products":["day","private"],"staff":1,"active":true,"byDay":{}},{"id":"grazing","name":"Grazing board service","start":"18:00","end":"18:30","products":["break","group","break2"],"staff":1,"active":true,"byDay":{"0":{"start":"16:30","end":"17:00"}}}],"serviceAssign":{},"foods":[{"id":"tea","name":"Afternoon tea","desc":"Sweet & savoury treats","products":["day","private","group"],"vegan":true,"active":true},{"id":"grazing","name":"Sweet & savoury grazing board","desc":"Meats, cheese & sweet treats · vegan available","products":["day","private","group","break","break2"],"vegan":true,"active":true}],"treatments":[{"id":"inc-massage","cat":"Massage","name":"20-Minute Aromatherapy Massage","min":20,"buffer":10,"price":0,"active":true,"desc":"Included with spa days and stays.","includedWith":["day","private","break","group","break2"],"sell":false,"roomIds":["tr1","tr2"]},{"id":"inc-facial","cat":"Facials","name":"20-Minute Aromatherapy Facial","min":20,"buffer":10,"price":0,"active":true,"desc":"Included with the Day Spa.","includedWith":["day","break","break2","group"],"sell":false,"roomIds":["tr1","tr2"]},{"id":"inc-lux-facial","cat":"Facials","name":"20-Minute Luxury Facial","min":20,"buffer":10,"price":0,"active":true,"desc":"Included with the Private Spa.","includedWith":["private"],"sell":false,"roomIds":["tr1","tr2"]},{"id":"basics","cat":"Facials","name":"Back to Basics Facial","min":30,"buffer":15,"price":50,"active":true,"desc":"Aromatherapy facial with double cleanse, exfoliation, shoulder massage, serum and moisturiser.","roomIds":["tr1","tr2"]},{"id":"radiance","cat":"Facials","name":"Recipe for Radiance Relaxation Facial","min":45,"buffer":15,"price":70,"active":true,"desc":"Aromatherapy facial with double cleanse, tone, exfoliation and mask, a chest, neck, shoulder and scalp massage, serum and moisturiser.","roomIds":["tr1","tr2"]},{"id":"tension","cat":"Massage","name":"Tension Melt Back, Neck & Shoulder Massage","min":30,"buffer":15,"price":50,"active":true,"desc":"Focused massage to ease tight backs, necks and shoulders.","roomIds":["tr1","tr2"]},{"id":"scalp","cat":"Massage","name":"Ultimate Relaxation Scalp, Neck & Shoulder Massage","min":30,"buffer":15,"price":50,"active":true,"desc":"Slow, soothing massage for the scalp, neck and shoulders.","roomIds":["tr1","tr2"]},{"id":"recipe","cat":"Massage","name":"Recipe for Relaxation Massage","min":45,"buffer":15,"price":70,"active":true,"desc":"Back, neck, shoulder and scalp massage.","roomIds":["tr1","tr2"]},{"id":"full","cat":"Massage","name":"Relax & Unwind Full Body Massage","min":60,"buffer":15,"price":80,"active":true,"heavy":true,"desc":"A full body massage from head to toe.","roomIds":["tr1","tr2"]},{"id":"classic","cat":"Japanese Head Spa","name":"The Classic Renewal","min":60,"buffer":15,"price":90,"head":true,"rooms":["headspa"],"active":true,"desc":"Traditional Japanese scalp massage with deep cleansing and nourishing scalp care.","roomIds":["tr1","tr2"]},{"id":"ritual","cat":"Japanese Head Spa","name":"The Radiance Ritual","min":70,"buffer":15,"price":115,"head":true,"rooms":["headspa"],"active":true,"desc":"An extended head spa with a mini facial.","roomIds":["tr1","tr2"]},{"id":"zen","cat":"Japanese Head Spa","name":"The Ultimate Zen Experience","min":80,"buffer":15,"price":145,"head":true,"rooms":["headspa"],"active":true,"desc":"Deep scalp renewal with a bespoke facial, extended massage and premium botanical serums.","roomIds":["tr1","tr2"]}],"treatRooms":[{"id":"tr1","name":"Treatment room 1","beds":2,"tags":["headspa"],"active":true},{"id":"tr2","name":"Treatment room 2","beds":1,"tags":[],"active":true}],"rooms":[{"id":"r1","name":"Room 1","bed":"King","people":2,"ensuite":true,"forBreaks":true,"active":true,"photo":"https://static.wixstatic.com/media/7a9273_372efc1386f3463b863c2d3b93d28915~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,enc_auto/room.jpg"},{"id":"r2","name":"Room 2","bed":"King","people":2,"ensuite":true,"forBreaks":true,"active":true,"photo":"https://static.wixstatic.com/media/7a9273_6598de2d84f849188386e0070f6f06f4~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,enc_auto/room.jpg"},{"id":"r3","name":"Room 3","bed":"King","people":2,"ensuite":true,"forBreaks":true,"active":true,"photo":"https://static.wixstatic.com/media/7a9273_7586b6b2ac694ae5b57bf3f571a4201f~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,enc_auto/room.jpg"},{"id":"r4","name":"Room 4","bed":"King","people":2,"ensuite":true,"forBreaks":true,"active":true,"photo":"https://static.wixstatic.com/media/7a9273_372efc1386f3463b863c2d3b93d28915~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,enc_auto/room.jpg"},{"id":"r5","name":"Room 5","bed":"King","people":2,"ensuite":true,"forBreaks":true,"active":true,"photo":"https://static.wixstatic.com/media/7a9273_6598de2d84f849188386e0070f6f06f4~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,enc_auto/room.jpg"},{"id":"r6","name":"Room 6","bed":"Double","people":2,"ensuite":false,"forBreaks":false,"active":true,"photo":"https://static.wixstatic.com/media/7a9273_7586b6b2ac694ae5b57bf3f571a4201f~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,enc_auto/room.jpg"},{"id":"r7","name":"Room 7","bed":"Double","people":2,"ensuite":false,"forBreaks":false,"active":true,"photo":"https://static.wixstatic.com/media/7a9273_372efc1386f3463b863c2d3b93d28915~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,enc_auto/room.jpg"},{"id":"r8","name":"Room 8","bed":"2 singles","people":2,"ensuite":false,"forBreaks":false,"active":true,"photo":"https://static.wixstatic.com/media/7a9273_6598de2d84f849188386e0070f6f06f4~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,enc_auto/room.jpg"}],"rates":[],"staff":[{"id":"s1","active":true,"treatments":["inc-massage","tension","scalp","recipe","full","inc-facial","inc-lux-facial","basics","radiance","classic","ritual","zen"],"duties":["food"],"pattern":{"1":{"shifts":[{"start":"09:00","end":"18:00"}],"breaks":[]},"2":{"shifts":[{"start":"09:00","end":"18:00"}],"breaks":[]},"3":{"shifts":[{"start":"09:00","end":"18:00"}],"breaks":[]},"4":{"shifts":[{"start":"09:00","end":"18:00"}],"breaks":[]},"5":{"shifts":[{"start":"09:00","end":"18:00"}],"breaks":[]}},"maxHands":360,"off":[]},{"id":"s2","active":true,"treatments":["inc-massage","tension","scalp","recipe","full","inc-facial","inc-lux-facial","basics","radiance","classic","ritual","zen"],"duties":["food"],"pattern":{"0":{"shifts":[{"start":"11:00","end":"22:30"}],"breaks":[]},"3":{"shifts":[{"start":"13:00","end":"22:00"}],"breaks":[]},"4":{"shifts":[{"start":"13:00","end":"22:00"}],"breaks":[]},"5":{"shifts":[{"start":"09:00","end":"18:00"}],"breaks":[]},"6":{"shifts":[{"start":"09:00","end":"18:00"}],"breaks":[]}},"maxHands":360,"off":[]}],"promos":[],"policies":{"spa":"Spa days are paid in full and are non-refundable. You can move your visit (subject to availability) by emailing us at least 30 days before.","stay":"Spa breaks can be refunded if you cancel at least 30 days before arrival. With less notice the full cost is charged, and there are no refunds for leaving early.","house":"50% is paid now and the balance 6 weeks before arrival (bookings within 6 weeks are paid in full). Cancel 6+ months ahead and you can move your dates; 6+ weeks ahead, the deposit is kept; under 6 weeks, the full cost is kept. A £500 damage deposit is pre-authorised on your card and released within 48 hours of departure."},"vouchers":{"validMonths":12,"products":[{"id":"day1","name":"Day Spa gift voucher","price":90,"was":100,"value":100,"product":"day","guests":1,"active":true},{"id":"day2","name":"Day Spa for Two gift voucher","price":181,"was":200,"value":200,"product":"day","guests":2,"active":true},{"id":"break2","name":"Ensuite Spa Break for 2 gift voucher","price":290,"value":290,"product":"break","guests":2,"active":true}]},"bankHolidays":["2026-12-25","2026-12-28","2027-01-01","2027-03-26","2027-03-29","2027-05-03","2027-05-31","2027-08-30","2027-12-27","2027-12-28"],"roles":null,"consult":{"questions":[{"id":"pregnant","type":"yesno","label":"Are you pregnant, or could you be?","detail":"How many weeks?"},{"id":"heart","type":"yesno","label":"Do you have a heart condition, or high or low blood pressure?","detail":"Please tell us more"},{"id":"medical","type":"yesno","label":"Do you have diabetes, epilepsy, a blood clotting condition or any other medical condition?","detail":"Please tell us more"},{"id":"meds","type":"yesno","label":"Are you taking any medication?","detail":"Which ones?"},{"id":"allergy","type":"yesno","label":"Do you have any allergies (for example nuts, essential oils, latex or skincare products)?","detail":"What are you allergic to?"},{"id":"skin","type":"yesno","label":"Any skin conditions, cuts, recent sunburn, or cosmetic treatments (peels, injectables, laser) in the last 2 weeks?","detail":"Please tell us more"},{"id":"injury","type":"yesno","label":"Any injuries, recent surgery, or areas you’d like us to avoid?","detail":"Where, and what happened?"},{"id":"pressure","type":"choice","label":"Preferred massage pressure","options":["Light","Medium","Firm","Not sure"]},{"id":"other","type":"text","label":"Anything else your therapist should know?"}],"endpoint":"","publicKey":null}}
+{
+ "v": 1,
+ "business": {
+  "name": "York Cottage Spa",
+  "phone": "01933 580 100",
+  "email": "info@yorkcottagespa.com",
+  "whatsapp": "",
+  "address": "Easton Lane, Bozeat, Northamptonshire NN29 7NN",
+  "website": "https://www.yorkcottagespa.com",
+  "googleReviewUrl": "",
+  "currency": "GBP"
+ },
+ "rules": {
+  "bookAheadDays": 365,
+  "minNoticeHours": 24,
+  "slotStep": 30,
+  "maxHandsOn": 360,
+  "breaks": {
+   "lunchMin": 30,
+   "lunchMax": 60,
+   "lunchFrom": "11:30",
+   "lunchTo": "15:00",
+   "lunchIfOver": 360,
+   "breakMin": 15,
+   "breakMax": 30,
+   "maxWithoutBreak": 240
+  },
+  "headSpaOff": 10,
+  "blueLight": true,
+  "blueLightMin": 30,
+  "groupTogether": true,
+  "groupTogetherFrom": 2,
+  "holdMinutes": 30,
+  "minHandover": 15,
+  "share": "fill"
+ },
+ "hours": {
+  "0": {
+   "start": "09:30",
+   "end": "22:30"
+  },
+  "1": {
+   "start": "09:30",
+   "end": "22:00"
+  },
+  "2": {
+   "start": "09:30",
+   "end": "22:00"
+  },
+  "3": {
+   "start": "09:30",
+   "end": "22:00"
+  },
+  "4": {
+   "start": "09:30",
+   "end": "22:00"
+  },
+  "5": {
+   "start": "09:30",
+   "end": "22:00"
+  },
+  "6": {
+   "start": "09:30",
+   "end": "22:00"
+  }
+ },
+ "hoursOverride": {},
+ "treatTimes": {
+  "default": {
+   "first": "10:00",
+   "last": "21:00"
+  },
+  "dates": {}
+ },
+ "closures": [
+  {
+   "id": "xmas26",
+   "from": "2026-12-25",
+   "to": "2026-12-26",
+   "scope": [
+    "all"
+   ],
+   "reason": "Christmas"
+  }
+ ],
+ "spa": {
+  "capacity": 6,
+  "changeover": 30
+ },
+ "sessions": [
+  {
+   "id": "day-am",
+   "product": "day",
+   "name": "Morning",
+   "start": "09:30",
+   "end": "13:30",
+   "arrive": "09:15",
+   "cap": 6,
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    0
+   ],
+   "active": true
+  },
+  {
+   "id": "day-pm",
+   "product": "day",
+   "name": "Afternoon",
+   "start": "13:00",
+   "end": "17:00",
+   "arrive": "12:45",
+   "cap": 6,
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    0
+   ],
+   "active": true
+  },
+  {
+   "id": "acc-am",
+   "product": "access",
+   "name": "Morning",
+   "start": "09:30",
+   "end": "13:30",
+   "arrive": "09:15",
+   "cap": 6,
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    0
+   ],
+   "active": true
+  },
+  {
+   "id": "acc-pm",
+   "product": "access",
+   "name": "Afternoon",
+   "start": "14:00",
+   "end": "18:00",
+   "arrive": "13:45",
+   "cap": 6,
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    0
+   ],
+   "active": true
+  },
+  {
+   "id": "acc-ev",
+   "product": "access",
+   "name": "Evening",
+   "start": "18:30",
+   "end": "22:00",
+   "arrive": "18:15",
+   "cap": 6,
+   "days": [
+    5,
+    6
+   ],
+   "active": true
+  },
+  {
+   "id": "prv-am",
+   "product": "private",
+   "name": "Morning",
+   "start": "09:30",
+   "end": "13:30",
+   "arrive": "09:15",
+   "cap": 16,
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "active": true
+  },
+  {
+   "id": "prv-pm",
+   "product": "private",
+   "name": "Afternoon",
+   "start": "14:00",
+   "end": "18:00",
+   "arrive": "13:45",
+   "cap": 16,
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "active": true
+  },
+  {
+   "id": "prv-sun",
+   "product": "private",
+   "name": "Sunday",
+   "start": "11:30",
+   "end": "15:30",
+   "arrive": "11:15",
+   "cap": 16,
+   "days": [
+    0
+   ],
+   "active": true
+  }
+ ],
+ "products": {
+  "day": {
+   "name": "Day Spa",
+   "kind": "session",
+   "price": 100,
+   "min": 1,
+   "max": 6,
+   "food": true,
+   "benefits": [
+    "Spa pool, sauna & relaxation lounge",
+    "Hot & cold drinks",
+    "Towel, robe & slippers",
+    "Afternoon tea or grazing board"
+   ],
+   "active": true,
+   "online": true,
+   "blurb": "4-hour session: 20-minute massage or facial, afternoon tea or grazing board, spa pool, sauna & lounge.",
+   "pay": {
+    "deposit": 100
+   },
+   "cancel": {
+    "moveDays": 30,
+    "rules": [
+     {
+      "minDays": 0,
+      "keepPct": 100
+     }
+    ]
+   },
+   "includedPick": "one",
+   "policy": "Spa days are paid in full and are non-refundable. You can move your visit (subject to availability) by emailing us at least 30 days before."
+  },
+  "access": {
+   "name": "Spa Access",
+   "kind": "session",
+   "price": 50,
+   "min": 1,
+   "max": 6,
+   "food": false,
+   "benefits": [
+    "Spa pool, sauna & relaxation lounge",
+    "Hot & cold drinks",
+    "Towel & robe"
+   ],
+   "active": true,
+   "online": true,
+   "blurb": "4-hour session: spa pool, sauna and lounge with hot & cold refreshments, towel and robe.",
+   "pay": {
+    "deposit": 100
+   },
+   "cancel": {
+    "moveDays": 30,
+    "rules": [
+     {
+      "minDays": 0,
+      "keepPct": 100
+     }
+    ]
+   },
+   "includedPick": "one",
+   "policy": "Spa days are paid in full and are non-refundable. You can move your visit (subject to availability) by emailing us at least 30 days before."
+  },
+  "private": {
+   "name": "Private Spa",
+   "kind": "private",
+   "price": 100,
+   "min": 4,
+   "minByDay": {
+    "0": 6
+   },
+   "max": 16,
+   "food": true,
+   "benefits": [
+    "The spa just for your group",
+    "Food & drinks",
+    "Towel & robe"
+   ],
+   "active": true,
+   "online": true,
+   "blurb": "The spa just for your group, with food, drinks and a 20-minute massage or luxury facial each.",
+   "pay": {
+    "deposit": 100
+   },
+   "cancel": {
+    "moveDays": 30,
+    "rules": [
+     {
+      "minDays": 0,
+      "keepPct": 100
+     }
+    ]
+   },
+   "includedPick": "one",
+   "policy": "Spa days are paid in full and are non-refundable. You can move your visit (subject to availability) by emailing us at least 30 days before."
+  },
+  "break": {
+   "name": "1-Night Spa Break",
+   "kind": "stay",
+   "priceN": {
+    "1": 145
+   },
+   "perPerson": true,
+   "min": 2,
+   "max": 6,
+   "nights": [
+    1
+   ],
+   "arriveDays": {
+    "1": [
+     1,
+     2,
+     3,
+     4,
+     0
+    ]
+   },
+   "food": false,
+   "foodsIncluded": [
+    "grazing"
+   ],
+   "breakfast": true,
+   "exclusiveFrom": 6,
+   "benefits": [
+    "King ensuite room",
+    "Spa access",
+    "Sweet & savoury grazing board",
+    "Towel & robe"
+   ],
+   "active": true,
+   "online": true,
+   "blurb": "One night, from £145 per person based on 2 sharing. King ensuite room, grazing board, a 20-minute aromatherapy massage or facial each and spa access. Sunday to Thursday.",
+   "times": {
+    "0": {
+     "checkIn": "14:00",
+     "food": "16:30",
+     "checkOut": "11:00",
+     "spa": [
+      "18:00",
+      "22:30"
+     ],
+     "spa2": [
+      "17:30",
+      "22:00"
+     ]
+    },
+    "default": {
+     "checkIn": "13:30",
+     "spa": [
+      "14:00",
+      "18:00"
+     ],
+     "food": "18:00",
+     "checkOut": "11:00"
+    }
+   },
+   "pay": {
+    "deposit": 100
+   },
+   "cancel": {
+    "rules": [
+     {
+      "minDays": 30,
+      "keepPct": 0
+     },
+     {
+      "minDays": 0,
+      "keepPct": 100
+     }
+    ]
+   },
+   "includedPick": "one",
+   "policy": "Spa breaks can be refunded if you cancel at least 30 days before arrival. With less notice the full cost is charged, and there are no refunds for leaving early."
+  },
+  "break2": {
+   "name": "2-Night Spa Break",
+   "kind": "stay",
+   "priceN": {
+    "2": 220
+   },
+   "perPerson": true,
+   "min": 2,
+   "max": 6,
+   "nights": [
+    2
+   ],
+   "arriveDays": {
+    "2": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   "food": false,
+   "foodsIncluded": [
+    "grazing"
+   ],
+   "breakfast": true,
+   "exclusiveFrom": 6,
+   "benefits": [
+    "King ensuite room",
+    "Spa access",
+    "Sweet & savoury grazing board",
+    "Towel & robe"
+   ],
+   "active": true,
+   "online": true,
+   "blurb": "Two nights, from £220 per person based on 2 sharing. King ensuite room, grazing board, a 20-minute aromatherapy massage or facial each and spa access. Arrive Sunday to Wednesday.",
+   "times": {
+    "0": {
+     "checkIn": "14:00",
+     "spa": [
+      "18:00",
+      "22:30"
+     ],
+     "spa2": [
+      "17:30",
+      "22:00"
+     ],
+     "food": "16:30",
+     "checkOut": "11:00"
+    },
+    "default": {
+     "checkIn": "13:30",
+     "spa": [
+      "14:00",
+      "18:00"
+     ],
+     "food": "18:00",
+     "checkOut": "11:00"
+    }
+   },
+   "pay": {
+    "deposit": 100
+   },
+   "cancel": {
+    "rules": [
+     {
+      "minDays": 30,
+      "keepPct": 0
+     },
+     {
+      "minDays": 0,
+      "keepPct": 100
+     }
+    ]
+   },
+   "includedPick": "one",
+   "policy": "Spa breaks can be refunded if you cancel at least 30 days before arrival. With less notice the full cost is charged, and there are no refunds for leaving early."
+  },
+  "group": {
+   "name": "Group Spa Break",
+   "kind": "stay",
+   "priceN": {
+    "1": 145
+   },
+   "perPerson": true,
+   "min": 7,
+   "max": 16,
+   "nights": [
+    1
+   ],
+   "arriveDays": {
+    "1": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   "food": true,
+   "foods": [
+    "grazing",
+    "tea"
+   ],
+   "breakfast": true,
+   "exclusive": true,
+   "benefits": [
+    "The spa just for your group",
+    "Grazing board or afternoon tea",
+    "Up to 8 rooms"
+   ],
+   "active": true,
+   "online": true,
+   "blurb": "7+ guests, Sunday to Thursday. Up to 8 rooms, the spa just for your group, a grazing board or afternoon tea and a 20-minute aromatherapy massage or facial each.",
+   "times": {
+    "0": {
+     "checkIn": "15:30",
+     "spa": [
+      "17:30",
+      "22:00"
+     ],
+     "food": "16:30",
+     "checkOut": "11:00"
+    },
+    "default": {
+     "checkIn": "13:30",
+     "spa": [
+      "14:00",
+      "22:00"
+     ],
+     "checkOut": "11:00"
+    }
+   },
+   "pay": {
+    "deposit": 100
+   },
+   "cancel": {
+    "rules": [
+     {
+      "minDays": 30,
+      "keepPct": 0
+     },
+     {
+      "minDays": 0,
+      "keepPct": 100
+     }
+    ]
+   },
+   "allRooms": true,
+   "includedPick": "one",
+   "policy": "Spa breaks can be refunded if you cancel at least 30 days before arrival. With less notice the full cost is charged, and there are no refunds for leaving early."
+  },
+  "house": {
+   "name": "Whole House & Spa",
+   "kind": "house",
+   "night": 1840,
+   "minN": 2,
+   "maxN": 30,
+   "min": 1,
+   "max": 16,
+   "food": false,
+   "benefits": [
+    "Exclusive use of the house & spa",
+    "Hot tub & sauna",
+    "Full kitchen & 2 living rooms",
+    "A basket of firewood"
+   ],
+   "active": true,
+   "online": true,
+   "blurb": "Exclusive use of the house and spa for up to 16 guests: 8 bedrooms, kitchen, 2 living rooms, hot tub and sauna. 2-night minimum.",
+   "times": {
+    "default": {
+     "checkIn": "16:00",
+     "spa": [
+      "08:00",
+      "22:00"
+     ],
+     "checkOut": "11:00",
+     "spaLastDay": "10:30"
+    }
+   },
+   "pay": {
+    "deposit": 50,
+    "balanceDays": 42,
+    "damage": 500
+   },
+   "cancel": {
+    "moveDays": 183,
+    "rules": [
+     {
+      "minDays": 42,
+      "keepDeposit": true
+     },
+     {
+      "minDays": 0,
+      "keepPct": 100
+     }
+    ]
+   },
+   "includedPick": "one",
+   "policy": "50% is paid now and the balance 6 weeks before arrival (bookings within 6 weeks are paid in full). Cancel 6+ months ahead and you can move your dates; 6+ weeks ahead, the deposit is kept; under 6 weeks, the full cost is kept. A £500 damage deposit is pre-authorised on your card and released within 48 hours of departure."
+  },
+  "treat": {
+   "name": "Treatments only",
+   "kind": "treat",
+   "price": 0,
+   "min": 1,
+   "max": 4,
+   "food": false,
+   "benefits": [],
+   "active": true,
+   "online": true,
+   "blurb": "Just here for a massage, facial or head spa? Choose your treatments with no spa session.",
+   "parts": {
+    "Morning": [
+     "09:30",
+     "13:00"
+    ],
+    "Afternoon": [
+     "13:00",
+     "18:00"
+    ]
+   },
+   "pay": {
+    "deposit": 100
+   },
+   "cancel": {
+    "moveDays": 30,
+    "rules": [
+     {
+      "minDays": 0,
+      "keepPct": 100
+     }
+    ]
+   },
+   "includedPick": "one",
+   "policy": "Spa days are paid in full and are non-refundable. You can move your visit (subject to availability) by emailing us at least 30 days before."
+  }
+ },
+ "breakfastPrice": 10,
+ "services": [
+  {
+   "id": "lunch",
+   "name": "Spa lunch service",
+   "start": "13:00",
+   "end": "14:00",
+   "products": [
+    "day",
+    "private"
+   ],
+   "staff": 1,
+   "active": true,
+   "byDay": {}
+  },
+  {
+   "id": "grazing",
+   "name": "Grazing board service",
+   "start": "18:00",
+   "end": "18:30",
+   "products": [
+    "break",
+    "group",
+    "break2"
+   ],
+   "staff": 1,
+   "active": true,
+   "byDay": {
+    "0": {
+     "start": "16:30",
+     "end": "17:00"
+    }
+   }
+  }
+ ],
+ "serviceAssign": {},
+ "foods": [
+  {
+   "id": "tea",
+   "name": "Afternoon tea",
+   "desc": "Sweet & savoury treats",
+   "products": [
+    "day",
+    "private",
+    "group"
+   ],
+   "vegan": true,
+   "active": true
+  },
+  {
+   "id": "grazing",
+   "name": "Sweet & savoury grazing board",
+   "desc": "Meats, cheese & sweet treats · vegan available",
+   "products": [
+    "day",
+    "private",
+    "group",
+    "break",
+    "break2"
+   ],
+   "vegan": true,
+   "active": true
+  }
+ ],
+ "treatments": [
+  {
+   "id": "inc-massage",
+   "cat": "Massage",
+   "name": "20-Minute Aromatherapy Massage",
+   "min": 20,
+   "buffer": 10,
+   "price": 0,
+   "active": true,
+   "desc": "Included with spa days and stays.",
+   "includedWith": [
+    "day",
+    "private",
+    "break",
+    "group",
+    "break2"
+   ],
+   "sell": false,
+   "roomIds": [
+    "tr1",
+    "tr2"
+   ]
+  },
+  {
+   "id": "inc-facial",
+   "cat": "Facials",
+   "name": "20-Minute Aromatherapy Facial",
+   "min": 20,
+   "buffer": 10,
+   "price": 0,
+   "active": true,
+   "desc": "Included with the Day Spa.",
+   "includedWith": [
+    "day",
+    "break",
+    "break2",
+    "group"
+   ],
+   "sell": false,
+   "roomIds": [
+    "tr1",
+    "tr2"
+   ]
+  },
+  {
+   "id": "inc-lux-facial",
+   "cat": "Facials",
+   "name": "20-Minute Luxury Facial",
+   "min": 20,
+   "buffer": 10,
+   "price": 0,
+   "active": true,
+   "desc": "Included with the Private Spa.",
+   "includedWith": [
+    "private"
+   ],
+   "sell": false,
+   "roomIds": [
+    "tr1",
+    "tr2"
+   ]
+  },
+  {
+   "id": "basics",
+   "cat": "Facials",
+   "name": "Back to Basics Facial",
+   "min": 30,
+   "buffer": 15,
+   "price": 50,
+   "active": true,
+   "desc": "Aromatherapy facial with double cleanse, exfoliation, shoulder massage, serum and moisturiser.",
+   "roomIds": [
+    "tr1",
+    "tr2"
+   ]
+  },
+  {
+   "id": "radiance",
+   "cat": "Facials",
+   "name": "Recipe for Radiance Relaxation Facial",
+   "min": 45,
+   "buffer": 15,
+   "price": 70,
+   "active": true,
+   "desc": "Aromatherapy facial with double cleanse, tone, exfoliation and mask, a chest, neck, shoulder and scalp massage, serum and moisturiser.",
+   "roomIds": [
+    "tr1",
+    "tr2"
+   ]
+  },
+  {
+   "id": "tension",
+   "cat": "Massage",
+   "name": "Tension Melt Back, Neck & Shoulder Massage",
+   "min": 30,
+   "buffer": 15,
+   "price": 50,
+   "active": true,
+   "desc": "Focused massage to ease tight backs, necks and shoulders.",
+   "roomIds": [
+    "tr1",
+    "tr2"
+   ]
+  },
+  {
+   "id": "scalp",
+   "cat": "Massage",
+   "name": "Ultimate Relaxation Scalp, Neck & Shoulder Massage",
+   "min": 30,
+   "buffer": 15,
+   "price": 50,
+   "active": true,
+   "desc": "Slow, soothing massage for the scalp, neck and shoulders.",
+   "roomIds": [
+    "tr1",
+    "tr2"
+   ]
+  },
+  {
+   "id": "recipe",
+   "cat": "Massage",
+   "name": "Recipe for Relaxation Massage",
+   "min": 45,
+   "buffer": 15,
+   "price": 70,
+   "active": true,
+   "desc": "Back, neck, shoulder and scalp massage.",
+   "roomIds": [
+    "tr1",
+    "tr2"
+   ]
+  },
+  {
+   "id": "full",
+   "cat": "Massage",
+   "name": "Relax & Unwind Full Body Massage",
+   "min": 60,
+   "buffer": 15,
+   "price": 80,
+   "active": true,
+   "heavy": true,
+   "desc": "A full body massage from head to toe.",
+   "roomIds": [
+    "tr1",
+    "tr2"
+   ]
+  },
+  {
+   "id": "classic",
+   "cat": "Japanese Head Spa",
+   "name": "The Classic Renewal",
+   "min": 60,
+   "buffer": 15,
+   "price": 90,
+   "head": true,
+   "rooms": [
+    "headspa"
+   ],
+   "active": true,
+   "desc": "Traditional Japanese scalp massage with deep cleansing and nourishing scalp care.",
+   "roomIds": [
+    "tr1",
+    "tr2"
+   ]
+  },
+  {
+   "id": "ritual",
+   "cat": "Japanese Head Spa",
+   "name": "The Radiance Ritual",
+   "min": 70,
+   "buffer": 15,
+   "price": 115,
+   "head": true,
+   "rooms": [
+    "headspa"
+   ],
+   "active": true,
+   "desc": "An extended head spa with a mini facial.",
+   "roomIds": [
+    "tr1",
+    "tr2"
+   ]
+  },
+  {
+   "id": "zen",
+   "cat": "Japanese Head Spa",
+   "name": "The Ultimate Zen Experience",
+   "min": 80,
+   "buffer": 15,
+   "price": 145,
+   "head": true,
+   "rooms": [
+    "headspa"
+   ],
+   "active": true,
+   "desc": "Deep scalp renewal with a bespoke facial, extended massage and premium botanical serums.",
+   "roomIds": [
+    "tr1",
+    "tr2"
+   ]
+  }
+ ],
+ "treatRooms": [
+  {
+   "id": "tr1",
+   "name": "Treatment room 1",
+   "beds": 2,
+   "tags": [
+    "headspa"
+   ],
+   "active": true
+  },
+  {
+   "id": "tr2",
+   "name": "Treatment room 2",
+   "beds": 1,
+   "tags": [],
+   "active": true
+  }
+ ],
+ "rooms": [
+  {
+   "id": "r1",
+   "name": "Room 1",
+   "bed": "King",
+   "people": 2,
+   "ensuite": true,
+   "forBreaks": true,
+   "active": true,
+   "photo": "https://static.wixstatic.com/media/7a9273_372efc1386f3463b863c2d3b93d28915~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,enc_auto/room.jpg"
+  },
+  {
+   "id": "r2",
+   "name": "Room 2",
+   "bed": "King",
+   "people": 2,
+   "ensuite": true,
+   "forBreaks": true,
+   "active": true,
+   "photo": "https://static.wixstatic.com/media/7a9273_6598de2d84f849188386e0070f6f06f4~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,enc_auto/room.jpg"
+  },
+  {
+   "id": "r3",
+   "name": "Room 3",
+   "bed": "King",
+   "people": 2,
+   "ensuite": true,
+   "forBreaks": true,
+   "active": true,
+   "photo": "https://static.wixstatic.com/media/7a9273_7586b6b2ac694ae5b57bf3f571a4201f~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,enc_auto/room.jpg"
+  },
+  {
+   "id": "r4",
+   "name": "Room 4",
+   "bed": "King",
+   "people": 2,
+   "ensuite": true,
+   "forBreaks": true,
+   "active": true,
+   "photo": "https://static.wixstatic.com/media/7a9273_372efc1386f3463b863c2d3b93d28915~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,enc_auto/room.jpg"
+  },
+  {
+   "id": "r5",
+   "name": "Room 5",
+   "bed": "King",
+   "people": 2,
+   "ensuite": true,
+   "forBreaks": true,
+   "active": true,
+   "photo": "https://static.wixstatic.com/media/7a9273_6598de2d84f849188386e0070f6f06f4~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,enc_auto/room.jpg"
+  },
+  {
+   "id": "r6",
+   "name": "Room 6",
+   "bed": "Double",
+   "people": 2,
+   "ensuite": false,
+   "forBreaks": false,
+   "active": true,
+   "photo": "https://static.wixstatic.com/media/7a9273_7586b6b2ac694ae5b57bf3f571a4201f~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,enc_auto/room.jpg"
+  },
+  {
+   "id": "r7",
+   "name": "Room 7",
+   "bed": "Double",
+   "people": 2,
+   "ensuite": false,
+   "forBreaks": false,
+   "active": true,
+   "photo": "https://static.wixstatic.com/media/7a9273_372efc1386f3463b863c2d3b93d28915~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,enc_auto/room.jpg"
+  },
+  {
+   "id": "r8",
+   "name": "Room 8",
+   "bed": "2 singles",
+   "people": 2,
+   "ensuite": false,
+   "forBreaks": false,
+   "active": true,
+   "photo": "https://static.wixstatic.com/media/7a9273_6598de2d84f849188386e0070f6f06f4~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,enc_auto/room.jpg"
+  }
+ ],
+ "rates": [],
+ "staff": [
+  {
+   "id": "s1",
+   "active": true,
+   "treatments": [
+    "inc-massage",
+    "tension",
+    "scalp",
+    "recipe",
+    "full",
+    "inc-facial",
+    "inc-lux-facial",
+    "basics",
+    "radiance",
+    "classic",
+    "ritual",
+    "zen"
+   ],
+   "duties": [
+    "food"
+   ],
+   "pattern": {
+    "1": {
+     "shifts": [
+      {
+       "start": "09:00",
+       "end": "18:00"
+      }
+     ],
+     "breaks": []
+    },
+    "2": {
+     "shifts": [
+      {
+       "start": "09:00",
+       "end": "18:00"
+      }
+     ],
+     "breaks": []
+    },
+    "3": {
+     "shifts": [
+      {
+       "start": "09:00",
+       "end": "18:00"
+      }
+     ],
+     "breaks": []
+    },
+    "4": {
+     "shifts": [
+      {
+       "start": "09:00",
+       "end": "18:00"
+      }
+     ],
+     "breaks": []
+    },
+    "5": {
+     "shifts": [
+      {
+       "start": "09:00",
+       "end": "18:00"
+      }
+     ],
+     "breaks": []
+    }
+   },
+   "maxHands": 360,
+   "off": []
+  },
+  {
+   "id": "s2",
+   "active": true,
+   "treatments": [
+    "inc-massage",
+    "tension",
+    "scalp",
+    "recipe",
+    "full",
+    "inc-facial",
+    "inc-lux-facial",
+    "basics",
+    "radiance",
+    "classic",
+    "ritual",
+    "zen"
+   ],
+   "duties": [
+    "food"
+   ],
+   "pattern": {
+    "0": {
+     "shifts": [
+      {
+       "start": "11:00",
+       "end": "22:30"
+      }
+     ],
+     "breaks": []
+    },
+    "3": {
+     "shifts": [
+      {
+       "start": "13:00",
+       "end": "22:00"
+      }
+     ],
+     "breaks": []
+    },
+    "4": {
+     "shifts": [
+      {
+       "start": "13:00",
+       "end": "22:00"
+      }
+     ],
+     "breaks": []
+    },
+    "5": {
+     "shifts": [
+      {
+       "start": "09:00",
+       "end": "18:00"
+      }
+     ],
+     "breaks": []
+    },
+    "6": {
+     "shifts": [
+      {
+       "start": "09:00",
+       "end": "18:00"
+      }
+     ],
+     "breaks": []
+    }
+   },
+   "maxHands": 360,
+   "off": []
+  }
+ ],
+ "promos": [
+  {
+   "id": "pmwyq0wslyswj",
+   "label": "Winter",
+   "type": "pct",
+   "value": 10,
+   "on": "treat",
+   "from": "2026-11-26",
+   "to": "2026-12-27",
+   "products": [],
+   "days": [],
+   "minSpend": 0,
+   "maxUses": 0,
+   "active": true,
+   "banner": {
+    "on": true,
+    "from": "2026-11-26",
+    "to": "2026-12-27",
+    "text": "10% off all bookings in December!"
+   },
+   "visitFrom": "",
+   "visitTo": "",
+   "hash": "YC5Ga2Jw0ASkJJJCZarafSEPREx+u2+IbSd9kS4LXoY",
+   "show": "WINTER10"
+  }
+ ],
+ "policies": {
+  "spa": "Spa days are paid in full and are non-refundable. You can move your visit (subject to availability) by emailing us at least 30 days before.",
+  "stay": "Spa breaks can be refunded if you cancel at least 30 days before arrival. With less notice the full cost is charged, and there are no refunds for leaving early.",
+  "house": "50% is paid now and the balance 6 weeks before arrival (bookings within 6 weeks are paid in full). Cancel 6+ months ahead and you can move your dates; 6+ weeks ahead, the deposit is kept; under 6 weeks, the full cost is kept. A £500 damage deposit is pre-authorised on your card and released within 48 hours of departure."
+ },
+ "vouchers": {
+  "validMonths": 12,
+  "products": [
+   {
+    "id": "day1",
+    "name": "Day Spa gift voucher",
+    "price": 90,
+    "was": 100,
+    "value": 100,
+    "product": "day",
+    "guests": 1,
+    "active": true
+   },
+   {
+    "id": "day2",
+    "name": "Day Spa for Two gift voucher",
+    "price": 181,
+    "was": 200,
+    "value": 200,
+    "product": "day",
+    "guests": 2,
+    "active": true
+   },
+   {
+    "id": "break2",
+    "name": "Ensuite Spa Break for 2 gift voucher",
+    "price": 290,
+    "value": 290,
+    "product": "break",
+    "guests": 2,
+    "active": true
+   }
+  ]
+ },
+ "bankHolidays": [
+  "2026-12-25",
+  "2026-12-28",
+  "2027-01-01",
+  "2027-03-26",
+  "2027-03-29",
+  "2027-05-03",
+  "2027-05-31",
+  "2027-08-30",
+  "2027-12-27",
+  "2027-12-28"
+ ],
+ "roles": null,
+ "consult": {
+  "questions": [
+   {
+    "id": "pregnant",
+    "type": "yesno",
+    "label": "Are you pregnant, or could you be?",
+    "detail": "How many weeks?"
+   },
+   {
+    "id": "heart",
+    "type": "yesno",
+    "label": "Do you have a heart condition, or high or low blood pressure?",
+    "detail": "Please tell us more"
+   },
+   {
+    "id": "medical",
+    "type": "yesno",
+    "label": "Do you have diabetes, epilepsy, a blood clotting condition or any other medical condition?",
+    "detail": "Please tell us more"
+   },
+   {
+    "id": "meds",
+    "type": "yesno",
+    "label": "Are you taking any medication?",
+    "detail": "Which ones?"
+   },
+   {
+    "id": "allergy",
+    "type": "yesno",
+    "label": "Do you have any allergies (for example nuts, essential oils, latex or skincare products)?",
+    "detail": "What are you allergic to?"
+   },
+   {
+    "id": "skin",
+    "type": "yesno",
+    "label": "Any skin conditions, cuts, recent sunburn, or cosmetic treatments (peels, injectables, laser) in the last 2 weeks?",
+    "detail": "Please tell us more"
+   },
+   {
+    "id": "injury",
+    "type": "yesno",
+    "label": "Any injuries, recent surgery, or areas you’d like us to avoid?",
+    "detail": "Where, and what happened?"
+   },
+   {
+    "id": "pressure",
+    "type": "choice",
+    "label": "Preferred massage pressure",
+    "options": [
+     "Light",
+     "Medium",
+     "Firm",
+     "Not sure"
+    ]
+   },
+   {
+    "id": "other",
+    "type": "text",
+    "label": "Anything else your therapist should know?"
+   }
+  ],
+  "endpoint": "",
+  "publicKey": null
+ }
+}
