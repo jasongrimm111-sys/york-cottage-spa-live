@@ -1159,14 +1159,14 @@
    "to": "2026-12-27",
    "products": [],
    "days": [],
-   "minSpend": 0,
+   "minSpend": null,
    "maxUses": 0,
    "active": true,
    "banner": {
     "on": true,
     "from": "2026-11-26",
     "to": "2026-12-27",
-    "text": "10% off all bookings in December!"
+    "text": "10% off all bookings in December with code WINTER10"
    },
    "visitFrom": "",
    "visitTo": "",
