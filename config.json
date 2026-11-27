@@ -1582,7 +1582,8 @@
        "Low",
        "Medium",
        "High"
-      ]
+      ],
+      "required": true
      },
      {
       "id": "energy",
@@ -1592,7 +1593,8 @@
        "Low",
        "Medium",
        "High"
-      ]
+      ],
+      "required": true
      },
      {
       "id": "anxiety",
@@ -1619,7 +1621,8 @@
       "options": [
        "Yes",
        "No"
-      ]
+      ],
+      "required": true
      },
      {
       "id": "pregnant",
