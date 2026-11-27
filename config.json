@@ -1263,7 +1263,94 @@
   "2027-12-27",
   "2027-12-28"
  ],
- "roles": null,
+ "roles": {
+  "owner": {
+   "name": "Owner",
+   "locked": true,
+   "perms": [
+    "view.today",
+    "view.calendar",
+    "view.bookings",
+    "arrivals",
+    "consult.fill",
+    "consult.view",
+    "bookings.create",
+    "bookings.edit",
+    "bookings.cancel",
+    "payments.take",
+    "payments.refund",
+    "treatments.moveOwn",
+    "treatments.moveAll",
+    "staff.view",
+    "staff.edit",
+    "view.customers",
+    "customers.edit",
+    "vouchers",
+    "promos",
+    "reports",
+    "setup",
+    "settings",
+    "users",
+    "data"
+   ]
+  },
+  "manager": {
+   "name": "Manager",
+   "perms": [
+    "view.today",
+    "view.calendar",
+    "view.bookings",
+    "arrivals",
+    "consult.fill",
+    "consult.view",
+    "bookings.create",
+    "bookings.edit",
+    "bookings.cancel",
+    "payments.take",
+    "payments.refund",
+    "treatments.moveOwn",
+    "treatments.moveAll",
+    "staff.view",
+    "staff.edit",
+    "view.customers",
+    "customers.edit",
+    "vouchers",
+    "promos",
+    "reports",
+    "setup",
+    "settings"
+   ]
+  },
+  "reception": {
+   "name": "Reception",
+   "perms": [
+    "view.today",
+    "view.calendar",
+    "view.bookings",
+    "arrivals",
+    "consult.fill",
+    "bookings.create",
+    "bookings.edit",
+    "bookings.cancel",
+    "payments.take",
+    "treatments.moveAll",
+    "staff.view",
+    "view.customers",
+    "vouchers"
+   ]
+  },
+  "therapist": {
+   "name": "Therapist",
+   "perms": [
+    "view.calendar",
+    "view.bookings",
+    "consult.fill",
+    "consult.view",
+    "treatments.moveOwn",
+    "arrivals"
+   ]
+  }
+ },
  "consult": {
   "questions": [
    {
