@@ -1010,6 +1010,8 @@
   {
    "id": "s1",
    "active": true,
+   "priority": 1,
+   "cover": false,
    "treatments": [
     "inc-massage",
     "tension",
@@ -1080,6 +1082,8 @@
   {
    "id": "s2",
    "active": true,
+   "priority": 2,
+   "cover": false,
    "treatments": [
     "inc-massage",
     "tension",
@@ -1289,5 +1293,26 @@
   ],
   "endpoint": "",
   "publicKey": null
+ },
+ "sms": {
+  "on": false,
+  "sender": "YorkCottage",
+  "off": {},
+  "templates": {
+   "confirm": "York Cottage: you’re booked for {product} on {when} (ref {ref}). Manage it: {manageLink}",
+   "preArrival": "York Cottage: see you on {when}. {consultLine}Manage your booking: {manageLink}",
+   "dayOf": "York Cottage: we look forward to seeing you today. {arrive}Questions? Call {phone}",
+   "changed": "York Cottage: your booking {ref} has changed. New details: {manageLink}",
+   "cancel": "York Cottage: your booking {ref} for {when} is cancelled.",
+   "balance": "York Cottage: the balance of {due} for {ref} is due by {dueDate}. Pay here: {payLink}",
+   "review": "Thank you for visiting York Cottage. We’d love a review: {reviewLink}",
+   "waitlist": "York Cottage: a space has come up for {product} on {when}. Book before {until}: {bookLink}"
+  }
+ },
+ "alerts": {
+  "email": "",
+  "newBooking": true,
+  "requests": true,
+  "therapists": true
  }
 }
