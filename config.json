@@ -1267,66 +1267,533 @@
  "consult": {
   "questions": [
    {
-    "id": "pregnant",
-    "type": "yesno",
-    "label": "Are you pregnant, or could you be?",
-    "detail": "How many weeks?"
+    "id": "welcome",
+    "type": "info",
+    "label": "Welcome to York Cottage",
+    "help": "We hope you have a wonderful time. We’re on hand to help make your day extra special, so please let us know if we can help in any way.\nPlease take a minute to fill in the following before your treatment."
    },
    {
-    "id": "heart",
-    "type": "yesno",
-    "label": "Do you have a heart condition, or high or low blood pressure?",
-    "detail": "Please tell us more"
+    "id": "gender",
+    "type": "choice",
+    "label": "Gender",
+    "options": [
+     "Male",
+     "Female",
+     "Non-Binary",
+     "Other / Prefer not to say"
+    ],
+    "required": true
    },
    {
-    "id": "medical",
+    "id": "email",
+    "type": "short",
+    "label": "Email",
+    "fill": "email",
+    "required": true
+   },
+   {
+    "id": "phone",
+    "type": "short",
+    "label": "Phone number",
+    "fill": "phone"
+   },
+   {
+    "id": "news",
+    "type": "optin",
+    "label": "Yes, send me special offers and news from York Cottage Spa by email",
+    "help": "You can unsubscribe at any time."
+   },
+   {
+    "id": "h_health",
+    "type": "heading",
+    "label": "General health"
+   },
+   {
+    "id": "gp",
+    "type": "short",
+    "label": "GP",
+    "help": "Your doctor’s name and surgery"
+   },
+   {
+    "id": "stress",
+    "type": "choice",
+    "label": "How would you describe your stress levels?",
+    "options": [
+     "Low",
+     "Medium",
+     "High"
+    ]
+   },
+   {
+    "id": "energy",
+    "type": "choice",
+    "label": "How would you describe your energy levels?",
+    "options": [
+     "Low",
+     "Medium",
+     "High"
+    ]
+   },
+   {
+    "id": "anxiety",
     "type": "yesno",
-    "label": "Do you have diabetes, epilepsy, a blood clotting condition or any other medical condition?",
-    "detail": "Please tell us more"
+    "label": "Do you struggle with anxiety?",
+    "detail": ""
+   },
+   {
+    "id": "pain",
+    "type": "yesno",
+    "label": "Do you struggle with pain?",
+    "detail": ""
    },
    {
     "id": "meds",
     "type": "yesno",
     "label": "Are you taking any medication?",
-    "detail": "Which ones?"
+    "detail": ""
    },
    {
-    "id": "allergy",
+    "id": "massage_before",
+    "type": "choice",
+    "label": "Have you ever had a massage treatment before?",
+    "options": [
+     "Yes",
+     "No"
+    ]
+   },
+   {
+    "id": "pregnant",
+    "type": "choice",
+    "label": "Could you be pregnant or are you trying to become pregnant?",
+    "options": [
+     "I am",
+     "Yes",
+     "No"
+    ],
+    "flagOn": [
+     "I am",
+     "Yes"
+    ],
+    "required": true
+   },
+   {
+    "id": "breastfeeding",
     "type": "yesno",
-    "label": "Do you have any allergies (for example nuts, essential oils, latex or skincare products)?",
-    "detail": "What are you allergic to?"
+    "label": "Are you breastfeeding?",
+    "detail": ""
+   },
+   {
+    "id": "h_cond",
+    "type": "heading",
+    "label": "Conditions / symptoms"
+   },
+   {
+    "id": "bp",
+    "type": "yesno",
+    "label": "Unstable blood pressure",
+    "detail": ""
+   },
+   {
+    "id": "heart",
+    "type": "yesno",
+    "label": "Heart disorder",
+    "detail": ""
+   },
+   {
+    "id": "thrombosis",
+    "type": "yesno",
+    "label": "Thrombosis / embolism",
+    "detail": ""
+   },
+   {
+    "id": "osteoporosis",
+    "type": "yesno",
+    "label": "Osteoporosis",
+    "detail": ""
+   },
+   {
+    "id": "epilepsy",
+    "type": "yesno",
+    "label": "Epilepsy",
+    "detail": ""
+   },
+   {
+    "id": "diabetes",
+    "type": "yesno",
+    "label": "Diabetes",
+    "detail": ""
+   },
+   {
+    "id": "arthritis",
+    "type": "yesno",
+    "label": "Arthritis",
+    "detail": ""
    },
    {
     "id": "skin",
     "type": "yesno",
-    "label": "Any skin conditions, cuts, recent sunburn, or cosmetic treatments (peels, injectables, laser) in the last 2 weeks?",
-    "detail": "Please tell us more"
+    "label": "Skin disorders",
+    "detail": ""
    },
    {
-    "id": "injury",
+    "id": "haemorrhage",
     "type": "yesno",
-    "label": "Any injuries, recent surgery, or areas you’d like us to avoid?",
-    "detail": "Where, and what happened?"
+    "label": "Recent haemorrhage",
+    "detail": ""
    },
    {
-    "id": "pressure",
-    "type": "choice",
-    "label": "Preferred massage pressure",
-    "options": [
-     "Light",
-     "Medium",
-     "Firm",
-     "Not sure"
-    ]
+    "id": "back",
+    "type": "yesno",
+    "label": "Back problems",
+    "detail": ""
+   },
+   {
+    "id": "oedema",
+    "type": "yesno",
+    "label": "Swelling / oedema",
+    "detail": ""
+   },
+   {
+    "id": "nervous",
+    "type": "yesno",
+    "label": "Dysfunction of the nervous system (e.g. MS)",
+    "detail": ""
+   },
+   {
+    "id": "cancer",
+    "type": "yesno",
+    "label": "Have you ever had, or do you have, cancer?",
+    "detail": ""
+   },
+   {
+    "id": "fractures",
+    "type": "yesno",
+    "label": "Do you have any recent fractures or sprains?",
+    "detail": ""
+   },
+   {
+    "id": "infectious",
+    "type": "yesno",
+    "label": "Any infectious diseases (e.g. chicken pox)?",
+    "detail": ""
+   },
+   {
+    "id": "allergies",
+    "type": "yesno",
+    "label": "Any allergies (e.g. nuts or oils)?",
+    "detail": ""
+   },
+   {
+    "id": "bruising",
+    "type": "yesno",
+    "label": "Any bruising, cuts, abrasions or varicose veins?",
+    "detail": ""
+   },
+   {
+    "id": "surgery",
+    "type": "yesno",
+    "label": "Recent surgery, broken bones or scarring?",
+    "detail": ""
+   },
+   {
+    "id": "details",
+    "type": "text",
+    "label": "Please give details if you answered yes to any of the above"
    },
    {
     "id": "other",
     "type": "text",
-    "label": "Anything else your therapist should know?"
+    "label": "Any other conditions?",
+    "help": "Write “None” if there aren’t any.",
+    "required": true
+   },
+   {
+    "id": "h_consent",
+    "type": "heading",
+    "label": "Consent"
+   },
+   {
+    "id": "consent_text",
+    "type": "info",
+    "label": "Please read before you sign",
+    "help": "York Cottage Spa Ltd. is a business registered in England with the number 12827276, registered address York Cottage, Easton Lane, Bozeat, NN29 7NN (“York Cottage Spa”).\nI understand that no therapist or other member of staff at York Cottage Spa will diagnose any illness, disease or any other physical or mental disorder, and does not prescribe pharmaceuticals or medical treatment.\nIt has been made clear to me that the treatments I receive at York Cottage Spa are not a substitute for any medical examinations and/or diagnoses, and that it is recommended that I see a medical practitioner for any physical or mental ailment I may have.\nBecause the therapist must be aware of any existing physical ailments or conditions of clients treated, I have stated any and all of my known medical conditions and, if necessary, give the therapist and/or York Cottage Spa permission to consult with my GP or the medical professional named above.\nI assume all risks and perils to my person physically, physiologically or psychologically which may ensue during this or subsequent visits to York Cottage Spa, including during treatments, as well as any effects deemed detrimental which may ensue afterwards as a result of this or subsequent visits and/or treatments.\nAll personal information given above will be stored by York Cottage Spa in digital form to keep the records required by regulatory bodies and industry best practice. Where I have given consent above, I understand I may receive updates, news and offers from York Cottage Spa from time to time by email."
    }
   ],
+  "forms": [
+   {
+    "id": "general",
+    "name": "Treatment",
+    "all": true,
+    "treatments": [],
+    "questions": [
+     {
+      "id": "welcome",
+      "type": "info",
+      "label": "Welcome to York Cottage",
+      "help": "We hope you have a wonderful time. We’re on hand to help make your day extra special, so please let us know if we can help in any way.\nPlease take a minute to fill in the following before your treatment."
+     },
+     {
+      "id": "gender",
+      "type": "choice",
+      "label": "Gender",
+      "options": [
+       "Male",
+       "Female",
+       "Non-Binary",
+       "Other / Prefer not to say"
+      ],
+      "required": true
+     },
+     {
+      "id": "email",
+      "type": "short",
+      "label": "Email",
+      "fill": "email",
+      "required": true
+     },
+     {
+      "id": "phone",
+      "type": "short",
+      "label": "Phone number",
+      "fill": "phone"
+     },
+     {
+      "id": "news",
+      "type": "optin",
+      "label": "Yes, send me special offers and news from York Cottage Spa by email",
+      "help": "You can unsubscribe at any time."
+     },
+     {
+      "id": "h_health",
+      "type": "heading",
+      "label": "General health"
+     },
+     {
+      "id": "gp",
+      "type": "short",
+      "label": "GP",
+      "help": "Your doctor’s name and surgery"
+     },
+     {
+      "id": "stress",
+      "type": "choice",
+      "label": "How would you describe your stress levels?",
+      "options": [
+       "Low",
+       "Medium",
+       "High"
+      ]
+     },
+     {
+      "id": "energy",
+      "type": "choice",
+      "label": "How would you describe your energy levels?",
+      "options": [
+       "Low",
+       "Medium",
+       "High"
+      ]
+     },
+     {
+      "id": "anxiety",
+      "type": "yesno",
+      "label": "Do you struggle with anxiety?",
+      "detail": ""
+     },
+     {
+      "id": "pain",
+      "type": "yesno",
+      "label": "Do you struggle with pain?",
+      "detail": ""
+     },
+     {
+      "id": "meds",
+      "type": "yesno",
+      "label": "Are you taking any medication?",
+      "detail": ""
+     },
+     {
+      "id": "massage_before",
+      "type": "choice",
+      "label": "Have you ever had a massage treatment before?",
+      "options": [
+       "Yes",
+       "No"
+      ]
+     },
+     {
+      "id": "pregnant",
+      "type": "choice",
+      "label": "Could you be pregnant or are you trying to become pregnant?",
+      "options": [
+       "I am",
+       "Yes",
+       "No"
+      ],
+      "flagOn": [
+       "I am",
+       "Yes"
+      ],
+      "required": true
+     },
+     {
+      "id": "breastfeeding",
+      "type": "yesno",
+      "label": "Are you breastfeeding?",
+      "detail": ""
+     },
+     {
+      "id": "h_cond",
+      "type": "heading",
+      "label": "Conditions / symptoms"
+     },
+     {
+      "id": "bp",
+      "type": "yesno",
+      "label": "Unstable blood pressure",
+      "detail": ""
+     },
+     {
+      "id": "heart",
+      "type": "yesno",
+      "label": "Heart disorder",
+      "detail": ""
+     },
+     {
+      "id": "thrombosis",
+      "type": "yesno",
+      "label": "Thrombosis / embolism",
+      "detail": ""
+     },
+     {
+      "id": "osteoporosis",
+      "type": "yesno",
+      "label": "Osteoporosis",
+      "detail": ""
+     },
+     {
+      "id": "epilepsy",
+      "type": "yesno",
+      "label": "Epilepsy",
+      "detail": ""
+     },
+     {
+      "id": "diabetes",
+      "type": "yesno",
+      "label": "Diabetes",
+      "detail": ""
+     },
+     {
+      "id": "arthritis",
+      "type": "yesno",
+      "label": "Arthritis",
+      "detail": ""
+     },
+     {
+      "id": "skin",
+      "type": "yesno",
+      "label": "Skin disorders",
+      "detail": ""
+     },
+     {
+      "id": "haemorrhage",
+      "type": "yesno",
+      "label": "Recent haemorrhage",
+      "detail": ""
+     },
+     {
+      "id": "back",
+      "type": "yesno",
+      "label": "Back problems",
+      "detail": ""
+     },
+     {
+      "id": "oedema",
+      "type": "yesno",
+      "label": "Swelling / oedema",
+      "detail": ""
+     },
+     {
+      "id": "nervous",
+      "type": "yesno",
+      "label": "Dysfunction of the nervous system (e.g. MS)",
+      "detail": ""
+     },
+     {
+      "id": "cancer",
+      "type": "yesno",
+      "label": "Have you ever had, or do you have, cancer?",
+      "detail": ""
+     },
+     {
+      "id": "fractures",
+      "type": "yesno",
+      "label": "Do you have any recent fractures or sprains?",
+      "detail": ""
+     },
+     {
+      "id": "infectious",
+      "type": "yesno",
+      "label": "Any infectious diseases (e.g. chicken pox)?",
+      "detail": ""
+     },
+     {
+      "id": "allergies",
+      "type": "yesno",
+      "label": "Any allergies (e.g. nuts or oils)?",
+      "detail": ""
+     },
+     {
+      "id": "bruising",
+      "type": "yesno",
+      "label": "Any bruising, cuts, abrasions or varicose veins?",
+      "detail": ""
+     },
+     {
+      "id": "surgery",
+      "type": "yesno",
+      "label": "Recent surgery, broken bones or scarring?",
+      "detail": ""
+     },
+     {
+      "id": "details",
+      "type": "text",
+      "label": "Please give details if you answered yes to any of the above"
+     },
+     {
+      "id": "other",
+      "type": "text",
+      "label": "Any other conditions?",
+      "help": "Write “None” if there aren’t any.",
+      "required": true
+     },
+     {
+      "id": "h_consent",
+      "type": "heading",
+      "label": "Consent"
+     },
+     {
+      "id": "consent_text",
+      "type": "info",
+      "label": "Terms and conditions",
+      "help": "York Cottage Spa Ltd. is a business registered in England with the number 12827276, registered address York Cottage, Easton Lane, Bozeat, NN29 7NN (“York Cottage Spa”).\nI understand that no therapist or other member of staff at York Cottage Spa will diagnose any illness, disease or any other physical or mental disorder, and does not prescribe pharmaceuticals or medical treatment.\nIt has been made clear to me that the treatments I receive at York Cottage Spa are not a substitute for any medical examinations and/or diagnoses, and that it is recommended that I see a medical practitioner for any physical or mental ailment I may have.\nBecause the therapist must be aware of any existing physical ailments or conditions of clients treated, I have stated any and all of my known medical conditions and, if necessary, give the therapist and/or York Cottage Spa permission to consult with my GP or the medical professional named above.\nI assume all risks and perils to my person physically, physiologically or psychologically which may ensue during this or subsequent visits to York Cottage Spa, including during treatments, as well as any effects deemed detrimental which may ensue afterwards as a result of this or subsequent visits and/or treatments.\nAll personal information given above will be stored by York Cottage Spa in digital form to keep the records required by regulatory bodies and industry best practice. Where I have given consent above, I understand I may receive updates, news and offers from York Cottage Spa from time to time by email.",
+      "terms": true
+     }
+    ]
+   }
+  ],
+  "retentionMonths": 24,
   "endpoint": "",
-  "publicKey": null
+  "publicKey": {
+   "alg": "RSA-OAEP-256",
+   "e": "AQAB",
+   "ext": true,
+   "key_ops": [
+    "encrypt"
+   ],
+   "kty": "RSA",
+   "n": "oU4xfKN2shIDTB0iDDud4nRm0njph05LZG7zqReBTiQrKuece8_8FZI127jDtU5CcDmxN49jY3zaJrYzPB3RuqyB0GduelSoyWZsIes2q6jYqxKj2V0ix7YLIEeHeDK7liEeEodpHEnBT8kvx4hGZRG5x-XUhpFrUUkhBaSm8cvBrzFzXHjnltNiL8mHOv9JcSeF-1d58xSxOHggC6cuOWA_i-7D39a3Wp1wQGloPoQfYGhzuuhZw-fDYOeJtaaggwgsG9ZCpZp6IExRXT0nh2rz3VyMDP8w54QO1sTyrmN_O87jAV3OfCdsdHql7Dj6BKt8Uo8dGl1z7u3OYsu4UQ"
+  }
  },
  "sms": {
   "on": false,
