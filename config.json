@@ -1142,7 +1142,8 @@
    "ensuite": false,
    "forBreaks": false,
    "active": true,
-   "photo": "https://static.wixstatic.com/media/7a9273_6598de2d84f849188386e0070f6f06f4~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,enc_auto/room.jpg"
+   "photo": "https://static.wixstatic.com/media/7a9273_6598de2d84f849188386e0070f6f06f4~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,enc_auto/room.jpg",
+   "building": "The Annex"
   }
  ],
  "rates": [],
