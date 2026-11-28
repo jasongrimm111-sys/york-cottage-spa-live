@@ -1110,7 +1110,7 @@
    "forBreaks": true,
    "active": true,
    "photo": "https://static.wixstatic.com/media/7a9273_6598de2d84f849188386e0070f6f06f4~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,enc_auto/room.jpg",
-   "building": "The Annex"
+   "building": ""
   },
   {
    "id": "r6",
@@ -1120,7 +1120,8 @@
    "ensuite": false,
    "forBreaks": false,
    "active": true,
-   "photo": "https://static.wixstatic.com/media/7a9273_7586b6b2ac694ae5b57bf3f571a4201f~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,enc_auto/room.jpg"
+   "photo": "https://static.wixstatic.com/media/7a9273_7586b6b2ac694ae5b57bf3f571a4201f~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,enc_auto/room.jpg",
+   "building": "The Annex"
   },
   {
    "id": "r7",
