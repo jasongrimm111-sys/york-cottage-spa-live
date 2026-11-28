@@ -1,6 +1,9 @@
 {
  "v": 1,
  "business": {
+  "directions": "On Easton Lane, just after the national speed limit signs as you leave Bozeat towards Easton Maudit.",
+  "what3words": "names.answers.fulfilled",
+  "parking": "Free parking on site, plus one electric car charger",
   "name": "York Cottage Spa",
   "phone": "01933 580 100",
   "email": "info@yorkcottagespa.com",
@@ -1940,7 +1943,7 @@
   }
  },
  "sms": {
-  "on": false,
+  "on": true,
   "sender": "YorkCottage",
   "off": {},
   "templates": {
