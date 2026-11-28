@@ -318,7 +318,7 @@
    ],
    "active": true,
    "online": true,
-   "blurb": "Everything in Spa Access Only, plus lunch (afternoon tea or a grazing board) and a 20-minute massage or facial each. Half day (4 hours) or full day (7½ hours).",
+   "blurb": "Everything in Spa Access Only, plus lunch (afternoon tea or a grazing board) and a 20-minute massage or facial each.",
    "pay": {
     "deposit": 100
    },
@@ -352,7 +352,7 @@
    ],
    "active": true,
    "online": true,
-   "blurb": "Just the spa: pool, sauna and relaxation lounge, with hot & cold drinks, towel and robe. No food or treatment. Half day (4 hours) or full day (7½ hours).",
+   "blurb": "Just the spa: pool, sauna and relaxation lounge, with hot & cold drinks, towel and robe. No food or treatment.",
    "pay": {
     "deposit": 100
    },
